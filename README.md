@@ -46,26 +46,26 @@ typedef struct binary_tree_s heap_t;
 
 ### 0. New node
 [0-binary\_tree\_node.c]() creates a binary tree node
-	* Prototype: `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);`
+	- Prototype: `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);`
 
 ### 1. Insert left
 [1-binary\_tree\_insert\_left.c]() inserts a node as the left-child of another node
-	* Prototype: `binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);`
-	* If `parent` already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.
+	- Prototype: `binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);`
+	- If `parent` already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.
 
 ### 2. Insert right
 [2-binary\_tree\_insert\_right.c]() inserts a node as the right-child of another node
-	* Prototype: `binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);`
-	* If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
+	- Prototype: `binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);`
+	- If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
 
 ### 3. Delete
 [3-binary\_tree\_delete.c]() deletes an entire binary tree
-	* Prototype: `void binary_tree_delete(binary_tree_t *tree);`
+	- Prototype: `void binary_tree_delete(binary_tree_t *tree);`
 
 ### 4. Is leaf
 [4-binary\_tree\_is\_leaf.c]() checks if a node is a leaf
-	* Prototype: `int binary_tree_is_leaf(const binary_tree_t *node);`
+	- Prototype: `int binary_tree_is_leaf(const binary_tree_t *node);`
 
 ### 5. Is root
 [5-binary\_tree\_is\_root.c]() checks if a given node is a root
-	* Prototype: `int binary_tree_is_root(const binary_tree_t *node);`
+	- Prototype: `int binary_tree_is_root(const binary_tree_t *node);`
