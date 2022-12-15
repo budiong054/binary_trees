@@ -134,3 +134,38 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 ```
 - If `tree` is NULL, the function must return 0
+
+### 12. Leaves
+[12-binary\_tree\_leaves.c](https://github.com/budiong054/binary_trees/blob/master/12-binary_tree_leaves.c) counts the leaves in a binary tree
+- Prototype:
+```
+size_t binary_tree_leaves(const binary_tree_t *tree);
+```
+
+### 13. Nodes
+[13-binary\_tree\_nodes.c](https://github.com/budiong054/binary_trees/blob/master/13-binary_tree_nodes.c) counts the nodes with at least 1 child in a binary tree
+- Prototype:
+```
+size_t binary_tree_nodes(const binary_tree_t *tree);
+```
+
+### 14. Balance factor
+[14-binary\_tree\_balance.c](https://github.com/budiong054/binary_trees/blob/master/14-binary_tree_balance.c) measures the balance factor of a binary tree
+- Prototype:
+```
+int binary_tree_balance(const binary_tree_t *tree);
+```
+
+### 15. Is full
+[15-binary\_tree\_is\_full.c](https://github.com/budiong054/binary_trees/blob/master/15-binary_tree_is_full.c) checks if a binary tree is full
+- Prototype:
+```
+int binary_tree_is_full(const binary_tree_t *tree);
+```
+
+### 16. Is perfect
+[16-binary\_tree\_is\_perfect.c](https://github.com/budiong054/binary_trees/blob/master/16-binary_tree_is_perfect.c) checks if a binary tree is perfect
+- Prototype: 
+```
+int binary_tree_is_perfect(const binary_tree_t *tree);
+```
