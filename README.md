@@ -169,3 +169,17 @@ int binary_tree_is_full(const binary_tree_t *tree);
 ```
 int binary_tree_is_perfect(const binary_tree_t *tree);
 ```
+
+### 17. Sibling
+[17-binary\_tree\_sibling.c](https://github.com/budiong054/binary_trees/blob/master/17-binary_tree_sibling.c) finds the sibling of a node
+- Prototype:
+```
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+```
+
+### 18. Uncle
+[18-binary\_tree\_uncle.c](https://github.com/budiong054/binary_trees/blob/master/18-binary_tree_uncle.c) finds the uncle of a node
+- Prototype: 
+```
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+```
